@@ -1,0 +1,43 @@
+{
+  "V0_现行(个人:自由/敬业/诚信)": {
+    "n_dims": 12,
+    "n_personal": 3,
+    "n_social": 9,
+    "spearman_rho": 0.53,
+    "perm_p_two_sided": 0.1,
+    "mw_U": 23,
+    "mw_p_one_tail": 0.05,
+    "combos": 220
+  },
+  "V1_诚信改归社会": {
+    "n_dims": 12,
+    "n_personal": 2,
+    "n_social": 10,
+    "spearman_rho": 0.389,
+    "perm_p_two_sided": 0.2727272727272727,
+    "mw_U": 16,
+    "mw_p_one_tail": 0.1364,
+    "combos": 66
+  },
+  "V2_剔除诚信与民主": {
+    "n_dims": 10,
+    "n_personal": 2,
+    "n_social": 8,
+    "spearman_rho": 0.435,
+    "perm_p_two_sided": 0.26666666666666666,
+    "mw_U": 13,
+    "mw_p_one_tail": 0.1333,
+    "combos": 45
+  },
+  "V3_仅剔除诚信": {
+    "n_dims": 11,
+    "n_personal": 2,
+    "n_social": 9,
+    "spearman_rho": 0.447,
+    "perm_p_two_sided": 0.21818181818181817,
+    "mw_U": 15,
+    "mw_p_one_tail": 0.1091,
+    "combos": 55
+  },
+  "_anchors_note": "V1~V3均不改变锚点集合(自由/民主/爱国)，锚点级3/3一致不受影响"
+}

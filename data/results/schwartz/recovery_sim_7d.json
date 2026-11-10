@@ -1,0 +1,59 @@
+{
+  "protocol": {
+    "n_items": 1198,
+    "n_obs": 22,
+    "n_clusters": 7,
+    "block_sizes": {
+      "普世主义": 284,
+      "仁慈": 283,
+      "安全": 217,
+      "成就": 125,
+      "自我导向": 106,
+      "从众": 94,
+      "传统": 89
+    },
+    "planted_structure": "块内等相关ρ、跨块独立（共同因子构造），双重中心化→1-相关距离→Ward强设K=7",
+    "n_reps": 20,
+    "seed": 20261105
+  },
+  "results": [
+    {
+      "rho_planted": 0.5,
+      "ari_median": 0.9401165582683312,
+      "ari_min": 0.8852932891652936,
+      "full_recovery_rate": 0.0
+    },
+    {
+      "rho_planted": 0.2,
+      "ari_median": 0.307023770577951,
+      "ari_min": 0.2018349961794634,
+      "full_recovery_rate": 0.0
+    },
+    {
+      "rho_planted": 0.1,
+      "ari_median": 0.06973197405715909,
+      "ari_min": 0.029770625907439303,
+      "full_recovery_rate": 0.0
+    },
+    {
+      "rho_planted": 0.05,
+      "ari_median": 0.022427341244275364,
+      "ari_min": 0.008468949357839345,
+      "full_recovery_rate": 0.0
+    },
+    {
+      "rho_planted": 0.02,
+      "ari_median": 0.00796709132794384,
+      "ari_min": 0.0005886072634560364,
+      "full_recovery_rate": 0.0
+    }
+  ],
+  "reference": {
+    "delta_r_observed_7d": 0.018,
+    "delta_r_ci95": [
+      0.016,
+      0.031
+    ],
+    "note": "真实同维-异维相关差Δr=0.018，约为ρ=0.5的1/28——管线可恢复的强度远强于实际存在的信号"
+  }
+}

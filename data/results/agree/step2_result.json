@@ -1,0 +1,70 @@
+{
+  "source": "agree",
+  "n_items": 1227,
+  "channels": {
+    "orig": {
+      "k_star": 15,
+      "silhouette_at_k": 0.31659529357626104,
+      "subsample_ari_mean": 0.5780728281430834,
+      "subsample_ari_sd": 0.029274953855650536
+    },
+    "I": {
+      "k_star": 15,
+      "silhouette_at_k": 0.3164863738245162,
+      "subsample_ari_mean": 0.5884084834251725,
+      "subsample_ari_sd": 0.027557005673826438
+    },
+    "P": {
+      "k_star": 15,
+      "silhouette_at_k": 0.31659529357626104,
+      "subsample_ari_mean": 0.5780728281430834,
+      "subsample_ari_sd": 0.029274953855650536
+    }
+  },
+  "cross_channel_ari": {
+    "orig_vs_I": 0.5804226716428965,
+    "orig_vs_P": 1.0,
+    "I_vs_P": 0.5804226716428965
+  },
+  "difficulty_check": {
+    "orig": {
+      "pc1_itemmean_r": 0.2996972982265809,
+      "pc1_evr": 0.13029573186206336,
+      "warning": false
+    },
+    "I": {
+      "pc1_itemmean_r": 0.03496523382158557,
+      "pc1_evr": 0.12960789501922362,
+      "warning": false
+    },
+    "P": {
+      "pc1_itemmean_r": 0.29969729822658125,
+      "pc1_evr": 0.13029573186206336,
+      "warning": false
+    }
+  },
+  "subtopic": {
+    "n_subtopics": 50,
+    "k_pearson": 2,
+    "k_rv": 5,
+    "dual_method_ari": 0.0025077157939753917,
+    "purity_mean": 0.19280386106019834
+  },
+  "split_half": {
+    "on_half": {
+      "k": 15,
+      "n_items": 1227,
+      "best_silhouette": 0.5443513849598042
+    },
+    "off_half": {
+      "k": 15,
+      "n_items": 1227,
+      "best_silhouette": 0.47871972182683387
+    },
+    "n_common_items": 1227,
+    "ari_on_vs_off": 0.16089375373441622,
+    "ari_on_vs_full": 0.2190857706190959,
+    "ari_off_vs_full": 0.5283933431238147,
+    "verdict": "⚠ 未通过: 样本外复制 ARI=0.161<0.6，经验类划分依赖全列信息，不足以作为新维度"
+  }
+}

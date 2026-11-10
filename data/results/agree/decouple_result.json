@@ -1,0 +1,282 @@
+{
+  "source": "agree",
+  "n_items": 1227,
+  "variance_budget": {
+    "n_items": 1227,
+    "n_cols": 22,
+    "fill_rate": 0.009816996369563607,
+    "ss_item_pct": 65.93946192466593,
+    "ss_model_pct": 4.761304247781213,
+    "ss_interaction_pct": 29.29923382755285
+  },
+  "midpoint_ref": {
+    "global_midpoint_rate": 0.10258520707845412,
+    "global_sd": 0.7894830661807203
+  },
+  "channel_evr": [
+    {
+      "channel": "orig",
+      "n_valid_items": 1227,
+      "evr1": 0.1302957318621172,
+      "mean_interitem_r": 0.012106920408800126,
+      "pc1_r_vs_orig": 1.0
+    },
+    {
+      "channel": "D",
+      "n_valid_items": 1227,
+      "evr1": 0.1487933835521388,
+      "mean_interitem_r": 0.3074586844406043,
+      "pc1_r_vs_orig": 0.6855410558543067
+    },
+    {
+      "channel": "I",
+      "n_valid_items": 1227,
+      "evr1": 0.12960789501929096,
+      "mean_interitem_r": 0.013222427929418745,
+      "pc1_r_vs_orig": 0.5584028753085116
+    },
+    {
+      "channel": "P",
+      "n_valid_items": 1227,
+      "evr1": 0.13029573186211732,
+      "mean_interitem_r": 0.012106920408800237,
+      "pc1_r_vs_orig": 0.9999999999999999
+    },
+    {
+      "channel": "Dstrict",
+      "n_valid_items": 1182,
+      "evr1": 0.22714186052075655,
+      "mean_interitem_r": 0.8638247136530557,
+      "pc1_r_vs_orig": -0.24757530426369007
+    },
+    {
+      "channel": "M",
+      "n_valid_items": 1227,
+      "evr1": 0.1470932185262783,
+      "mean_interitem_r": 0.2950624106126809,
+      "pc1_r_vs_orig": 0.36236298238689546
+    },
+    {
+      "channel": "E",
+      "n_valid_items": 1182,
+      "evr1": 0.13724760576647763,
+      "mean_interitem_r": 0.008845917770030076,
+      "pc1_r_vs_orig": -0.42227010515028585
+    }
+  ],
+  "stat_decouple": {
+    "orig": {
+      "evr1_before": 0.13029573186211713,
+      "strips": {
+        "strip1": {
+          "k_star": 15,
+          "silhouette": 0.30440496034246706,
+          "subsample_ari_mean": 0.5670897578510117,
+          "subsample_ari_sd": 0.027661876211349003,
+          "evr1_after": 0.13742073566158491,
+          "split_half_ari": 0.14870604870527357,
+          "split_half": {
+            "on_half": {
+              "k": 15,
+              "n_items": 1227,
+              "best_silhouette": 0.553618848841351
+            },
+            "off_half": {
+              "k": 15,
+              "n_items": 1227,
+              "best_silhouette": 0.4804298820041149
+            }
+          },
+          "split_half_n_common": 1227,
+          "perm_null_sil_mean": 0.03735027098282412,
+          "perm_p": 0.0196078431372549
+        },
+        "strip2": {
+          "k_star": 15,
+          "silhouette": 0.29996133083517745,
+          "subsample_ari_mean": 0.5785166297314885,
+          "subsample_ari_sd": 0.028119053933257178,
+          "evr1_after": 0.1074779499650913,
+          "split_half_ari": 0.1434748362363212,
+          "split_half": {
+            "on_half": {
+              "k": 15,
+              "n_items": 1227,
+              "best_silhouette": 0.5838078310722352
+            },
+            "off_half": {
+              "k": 15,
+              "n_items": 1227,
+              "best_silhouette": 0.48375777700851774
+            }
+          },
+          "split_half_n_common": 1227
+        },
+        "strip3": {
+          "k_star": 15,
+          "silhouette": 0.29255098763342036,
+          "subsample_ari_mean": 0.5750320629685858,
+          "subsample_ari_sd": 0.024675951460669837,
+          "evr1_after": 0.11527741555687826,
+          "split_half_ari": 0.14502499827645568,
+          "split_half": {
+            "on_half": {
+              "k": 14,
+              "n_items": 1227,
+              "best_silhouette": 0.5969405971995551
+            },
+            "off_half": {
+              "k": 15,
+              "n_items": 1227,
+              "best_silhouette": 0.5120536342025763
+            }
+          },
+          "split_half_n_common": 1227
+        }
+      }
+    },
+    "D": {
+      "evr1_before": 0.14879338355213872,
+      "strips": {
+        "strip1": {
+          "k_star": 15,
+          "silhouette": 0.6825727076860155,
+          "subsample_ari_mean": 0.9547113173850196,
+          "subsample_ari_sd": 0.011317372653073098,
+          "evr1_after": 0.1381867376965721,
+          "split_half_ari": 0.45968436783637595,
+          "split_half": {
+            "on_half": {
+              "k": 15,
+              "n_items": 1227,
+              "best_silhouette": 0.8136642840378079
+            },
+            "off_half": {
+              "k": 15,
+              "n_items": 1227,
+              "best_silhouette": 0.792962140767647
+            }
+          },
+          "split_half_n_common": 1227,
+          "perm_null_sil_mean": 0.036835101364942474,
+          "perm_p": 0.0196078431372549
+        },
+        "strip2": {
+          "k_star": 15,
+          "silhouette": 0.6874134056781943,
+          "subsample_ari_mean": 0.9617170009588094,
+          "subsample_ari_sd": 0.013796027732862207,
+          "evr1_after": 0.14145522078867073,
+          "split_half_ari": 0.4207385108169876,
+          "split_half": {
+            "on_half": {
+              "k": 14,
+              "n_items": 1227,
+              "best_silhouette": 0.813102762341612
+            },
+            "off_half": {
+              "k": 15,
+              "n_items": 1227,
+              "best_silhouette": 0.7984714023683931
+            }
+          },
+          "split_half_n_common": 1227
+        },
+        "strip3": {
+          "k_star": 15,
+          "silhouette": 0.6762298784519412,
+          "subsample_ari_mean": 0.9651980374029328,
+          "subsample_ari_sd": 0.01010739055194067,
+          "evr1_after": 0.11605457686716474,
+          "split_half_ari": 0.43430772548186747,
+          "split_half": {
+            "on_half": {
+              "k": 15,
+              "n_items": 1227,
+              "best_silhouette": 0.8183427536559191
+            },
+            "off_half": {
+              "k": 15,
+              "n_items": 1227,
+              "best_silhouette": 0.8099370411212905
+            }
+          },
+          "split_half_n_common": 1227
+        }
+      }
+    }
+  },
+  "score_decouple": [
+    {
+      "channel": "orig",
+      "n_valid_items": 1227,
+      "k_star": 15,
+      "silhouette": 0.31659529357626104,
+      "subsample_ari_mean": 0.5780728281430834,
+      "subsample_ari_sd": 0.029274953855650536,
+      "split_half_ari": 0.16089375373441622,
+      "mean_col_corr_models": -0.04610024667348627
+    },
+    {
+      "channel": "D",
+      "n_valid_items": 1227,
+      "k_star": 15,
+      "silhouette": 0.694503645724192,
+      "subsample_ari_mean": 0.9683201353219301,
+      "subsample_ari_sd": 0.008708436903960571,
+      "split_half_ari": 0.45734489431904685,
+      "mean_col_corr_models": -0.04613362861825416
+    },
+    {
+      "channel": "I",
+      "n_valid_items": 1227,
+      "k_star": 15,
+      "silhouette": 0.3164863738245162,
+      "subsample_ari_mean": 0.588435015124648,
+      "subsample_ari_sd": 0.027578359950233094,
+      "split_half_ari": 0.16179467885522708,
+      "mean_col_corr_models": -0.04588846993784549
+    },
+    {
+      "channel": "P",
+      "n_valid_items": 1227,
+      "k_star": 15,
+      "silhouette": 0.31659529357626104,
+      "subsample_ari_mean": 0.5780728281430834,
+      "subsample_ari_sd": 0.029274953855650536,
+      "split_half_ari": 0.16089375373441622,
+      "mean_col_corr_models": -0.046100246673486264
+    },
+    {
+      "channel": "Dstrict",
+      "n_valid_items": 1182,
+      "k_star": 2,
+      "silhouette": 0.9177814579513125,
+      "subsample_ari_mean": 0.9391296886393027,
+      "subsample_ari_sd": 0.04927887778521961,
+      "split_half_ari": 0.020204955244909978,
+      "mean_col_corr_models": -0.04044035659169407
+    },
+    {
+      "channel": "M",
+      "n_valid_items": 1227,
+      "k_star": 15,
+      "silhouette": 0.6995071733684719,
+      "subsample_ari_mean": 0.9706580337072778,
+      "subsample_ari_sd": 0.006516789848708814,
+      "split_half_ari": 0.45870923581139367,
+      "mean_col_corr_models": -0.04500522248814563
+    },
+    {
+      "channel": "E",
+      "n_valid_items": 1182,
+      "k_star": 15,
+      "silhouette": 0.35717989784022675,
+      "subsample_ari_mean": 0.6269988599404205,
+      "subsample_ari_sd": 0.03584072914380386,
+      "split_half_ari": 0.13755355631460378,
+      "mean_col_corr_models": -0.045231132134578626
+    }
+  ],
+  "verdict": "❌ 结局C 不恢复: orig剥1对半ARI=0.149, 最佳通道(M)对半ARI=0.459 → 低维坐实，换题型必要性论证（对接题型-可测性规律）"
+}

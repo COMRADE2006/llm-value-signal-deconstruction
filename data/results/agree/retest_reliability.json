@@ -1,0 +1,45 @@
+{
+  "doubao-seed-2-1-pro": {
+    "n_pairs": 200,
+    "exact_agreement": 0.955,
+    "within1_agreement": 0.99,
+    "quadratic_weighted_kappa": 0.9834484584997683,
+    "pearson_r": 0.9838184300160552,
+    "spearman_rho": 0.9756071324627265,
+    "mean_orig": 3.71,
+    "mean_retest": 3.735,
+    "mean_shift": 0.02499999999999991
+  },
+  "kimi-k2.6": {
+    "n_pairs": 200,
+    "exact_agreement": 0.885,
+    "within1_agreement": 0.995,
+    "quadratic_weighted_kappa": 0.9557883281186234,
+    "pearson_r": 0.9584322787083178,
+    "spearman_rho": 0.9476717604395812,
+    "mean_orig": 3.42,
+    "mean_retest": 3.44,
+    "mean_shift": 0.020000000000000018
+  },
+  "ds-v4-pro": {
+    "n_pairs": 200,
+    "exact_agreement": 0.9,
+    "within1_agreement": 0.975,
+    "quadratic_weighted_kappa": 0.9391748635779084,
+    "pearson_r": 0.9414061772546751,
+    "spearman_rho": 0.9426123248658508,
+    "mean_orig": 3.67,
+    "mean_retest": 3.685,
+    "mean_shift": 0.015000000000000124
+  },
+  "pooled": {
+    "n_pairs": 600,
+    "exact_agreement": 0.9133333333333333,
+    "within1_agreement": 0.9866666666666667,
+    "quadratic_weighted_kappa": 0.9636294027565084,
+    "pearson_r": 0.9648761597554398,
+    "spearman_rho": 0.9585779847763439,
+    "mean_shift": 0.020000000000000018
+  },
+  "note": "复测与原采集同prompt/同参数/同模型版本，间隔数日；完全一致率+二次加权κ为论文实验设置引用值"
+}

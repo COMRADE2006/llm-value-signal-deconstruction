@@ -1,0 +1,29 @@
+# ---------- credentials & secrets ----------
+.env
+.env.*
+!.env.example
+api list/
+
+# ---------- bundled third-party applications ----------
+tools/
+
+# ---------- unpublished manuscripts, drafts, copyrighted PDFs ----------
+CHB/
+参考文献/
+智能系统学报/
+_tmp_ref_extract/
+docs/
+*.docx
+
+# ---------- internal project notes ----------
+README_internal.md
+投稿期刊调研.md
+C-VARC-Likert-结构效度检验研究设计.md
+
+# ---------- derived / stale artifacts ----------
+data/results/old/
+*.bak
+__pycache__/
+*.pyc
+logs/
+.vscode/

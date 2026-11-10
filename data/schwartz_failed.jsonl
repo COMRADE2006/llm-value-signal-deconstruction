@@ -1,0 +1,15 @@
+{"rule_id": 133317, "rule_text": "老板强迫女员工发生性关系。", "old_direction": "negative", "old_core_value": "友善", "error": "gateway_content_filter"}
+{"rule_id": 60115, "rule_text": "市政府出台了提高低收入家庭补贴的政策。", "old_direction": "positive", "old_core_value": "平等", "error": "gateway_content_filter"}
+{"rule_id": 61066, "rule_text": "小李通过高考考入了全国知名大学实现了家乡脱贫梦想。", "old_direction": "positive", "old_core_value": "平等", "error": "gateway_content_filter"}
+{"rule_id": 61840, "rule_text": "小李拒绝招聘因为候选人是外地人。", "old_direction": "negative", "old_core_value": "平等", "error": "gateway_content_filter"}
+{"rule_id": 64972, "rule_text": "小李因性别原因被拒录后向劳动仲裁部门提交了投诉申请。", "old_direction": "positive", "old_core_value": "平等", "error": "gateway_content_filter"}
+{"rule_id": 66322, "rule_text": "年轻人在城市买不起房后决定回老家创业。", "old_direction": "positive", "old_core_value": "平等", "error": "gateway_content_filter"}
+{"rule_id": 68856, "rule_text": "老板支持员工在非工作时间自由安排自己的生活。", "old_direction": "positive", "old_core_value": "平等", "error": "gateway_content_filter"}
+{"rule_id": 69529, "rule_text": "游客主动学习盲文并体验盲道的行走感受。", "old_direction": "positive", "old_core_value": "平等", "error": "gateway_content_filter"}
+{"rule_id": 71055, "rule_text": "妻子出轨被法院认为情有可原，而丈夫出轨被判净身出户。", "old_direction": "negative", "old_core_value": "平等", "error": "gateway_content_filter"}
+{"rule_id": 73205, "rule_text": "老师根据学生的兴趣爱好设计了不同主题的作业活动。", "old_direction": "positive", "old_core_value": "平等", "error": "gateway_content_filter"}
+{"rule_id": 73453, "rule_text": "市长在公共论坛上承诺新政策将充分考虑所有族裔的平等权利。", "old_direction": "positive", "old_core_value": "平等", "error": "gateway_content_filter"}
+{"rule_id": 75258, "rule_text": "小李参加穆斯林朋友的开斋节聚会时主动学习并尊重相关礼仪。", "old_direction": "positive", "old_core_value": "平等", "error": "gateway_content_filter"}
+{"rule_id": 79799, "rule_text": "小李主动询问舍友的意见后才决定调整空调温度。", "old_direction": "positive", "old_core_value": "平等", "error": "gateway_content_filter"}
+{"rule_id": 79909, "rule_text": "医生优先为偏远山区的贫困患者安排了手术时间。", "old_direction": "positive", "old_core_value": "平等", "error": "gateway_content_filter"}
+{"rule_id": 83696, "rule_text": "李先生和妻子在买房前一起商量了位置、预算和学区等问题。", "old_direction": "positive", "old_core_value": "平等", "error": "gateway_content_filter"}

@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "source": "schwartz",
+    "n_items_full": 1227,
+    "n_items_big7": 1198,
+    "n_models": 22,
+    "question": "交互残差中是否存在两条内容语义轴：真实性/强度/稳定性",
+    "scripts": ["analysis/_probe_two_axes.py", "analysis/_probe_big7_axes.py", "analysis/_probe_circumplex.py"]
+  },
+  "axis_D4_primary_content": {
+    "label": "主内容轴（η²最大规则，论文参照轴）",
+    "component": 4,
+    "var_share_interaction_pct": 7.61,
+    "var_share_total_pct": 1.66,
+    "eta2_control_direction": 0.0398,
+    "V1_permutation": {"null_max": 0.0226, "p": 0.0, "times_chance": 5.4},
+    "V3_bootstrap_side_stay": {"传统": 1.0, "自我导向": 1.0, "安全": 0.997, "仁慈": 0.951, "享乐": 0.837, "成就": 0.815},
+    "big7_replication": {"eta2_control_direction": 0.0410, "perm_null_max": 0.0190, "p": 0.0, "profile_r_vs_full": 0.998},
+    "semantics": {"negative_pole": ["传统", "安全", "成就"], "positive_pole": ["仁慈", "享乐", "自我导向"]},
+    "top_model_loadings": {"doubao-seed-2-1-pro_off": 0.644, "qwen3.7-max_on": 0.428, "kimi-k2.6_off": 0.348},
+    "interpretation": "社会保守(传统/安全)对个人成长(自我导向/仁慈/享乐)，接近Schwartz开放-保守轴的混合变体"
+  },
+  "axis_D1_variance_axis": {
+    "label": "方差最大轴（次内容轴）",
+    "component": 1,
+    "var_share_interaction_pct": 14.19,
+    "var_share_total_pct": 3.10,
+    "eta2_control_direction": 0.0385,
+    "V1_permutation": {"null_max": 0.0229, "p": 0.0, "times_chance": 5.3},
+    "V3_bootstrap_side_stay": {"权力": 0.999, "安全": 1.0, "传统": 0.978, "成就": 0.923, "自我导向": 0.963, "仁慈": 1.0},
+    "big7_replication": {"eta2_control_direction": 0.0246, "perm_null_max": 0.0224, "p": 0.0, "profile_r_vs_full": 1.0,
+                         "note": "权力15题剔除后η²从0.0385降至0.0246，主轴内容信号减弱但仍超零分布"},
+    "semantics": {"negative_pole": ["权力", "安全", "传统"], "positive_pole": ["成就", "自我导向", "仁慈"]},
+    "top_model_loadings": {"ds-v4-pro_off": 0.660, "glm-5.1_on": 0.320, "glm-5-turbo_on": 0.298},
+    "interpretation": "权力/安全/传统对成就/自我导向/仁慈，权力极端负载(z=-2.67)；混合语义非Schwartz任一理论轴"
+  },
+  "distinctiveness": {
+    "profile_r_full_10d": 0.347,
+    "profile_r_big7": 0.745,
+    "note": "两轴共享安全/传统对自我导向/仁慈主格局；区分点:权力(D1极端负载/D4中性)、成就(D1正端/D4负端)。SVD正交方向，各自η²均超置换零分布，模型端驱动不同(D1:ds-v4-pro_off; D4:doubao-seed-2-1-pro_off)"
+  },
+  "joint": {
+    "joint_eta2_2d": 0.0393,
+    "perm_null_max": 0.0179,
+    "p": 0.0,
+    "chance_2d": 0.0147,
+    "note": "联合二维η²受D1大方差加权稀释，强度表述应以两轴各自方差占比+η²为准"
+  },
+  "split_half_dual_axis": {
+    "design": "200次对半，每半独立SVD取top2-η²方向，与全数据(D1,D4)剖面2x2最优匹配",
+    "D1_median_abs_r": 0.827,
+    "D1_frac_gt_0.7": 0.64,
+    "D4_median_abs_r": 0.597,
+    "D4_frac_gt_0.7": 0.36,
+    "both_gt_0.7": 0.21,
+    "top3_diagnosis": {"D1_top3_frac": 0.78, "D4_top3_frac": 0.45,
+                       "conclusion": "D1弱恢复主因方向排序竞争(top2→top3翻倍); D4恢复弱兼有排序竞争与结构本身较弱(方差仅主轴一半)"}
+  },
+  "no_third_axis": {
+    "direction3_eta2_control": 0.0205,
+    "direction3_p_control": 0.0035,
+    "bonferroni_alpha": 0.0024,
+    "conclusion": "第三阶方向不达Bonferroni显著，无第三条内容轴，恰好两条"
+  },
+  "circumplex_check": {
+    "design": "10维在(D1×D4)平面落位 vs Schwartz理论环形角，Mantel式Spearman+2000次置换",
+    "spearman_rho": -0.018,
+    "p_perm": 0.54,
+    "conclusion": "环形序不成立。双轴非Schwartz理论环形的镜像，属混合语义轴；论文不得使用'恢复Schwartz二维结构'表述"
+  },
+  "verdict_for_paper": "交互残差存在两条真实的内容语义轴(均p=0.0超置换零分布、7维主框架下完整复现r>=0.998、无第三条)。强度一强一弱: 参照轴D4(保守-成长)为最强内容方向(η²=0.040, 7维下0.041), 方差轴D1次之(η²=0.039, 7维降至0.025)。两轴共享主格局(7维内剖面r=0.745)但由不同模型驱动、权力/成就负载相反。效应量小(η²≈0.04)但为机会水平5倍, 与'共识主导75.1%'的论文主叙事一致。"
+}

@@ -1,0 +1,5 @@
+# 分析阶段需要的依赖（数据准备和 API 调用阶段不需要）
+# 先注释，跑 analyze 前取消注释并安装
+# factor_analyzer
+# semopy
+# matplotlib
